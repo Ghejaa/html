@@ -1,0 +1,61 @@
+body {
+    font-family: Arial,  sans-serif; /* keluarga font */
+    font-size: 18px; /* Ukuran font utama pada tag <p></p> */
+    background-color: #9a3333; /* Warna latar belakang laman web */
+    color: #ffffff; /* Warna teks */ 
+}
+h1 {
+    color: #000000; /* Warna tajuk (header)*/
+    font-size: 35px; /* Ukuran font tajuk (header) */
+    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+h2 {
+    color: #000000; /* Warna tajuk (header)*/
+    font-size: 35px; /* Ukuran font tajuk (header) */
+    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+h3 {
+    color: #000000; /* Warna tajuk (header)*/
+    font-size: 35px; /* Ukuran font tajuk (header) */
+    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+h4 {
+    color: #000000; /* Warna tajuk (header)*/
+    font-size: 35px; /* Ukuran font tajuk (header) */
+    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+h5 {
+    color: #000000; /* Warna tajuk (header)*/
+    font-size: 35px; /* Ukuran font tajuk (header) */
+    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+@keyframes color-change {
+    0% {
+      color: rgb(0, 0, 0);
+    }
+  
+    50% {
+      color: rgb(112, 0, 0);
+    }
+  
+    100% {
+      color: rgb(201, 76, 76);
+    }
+}
+h1 {
+    animation: color-change 3s infinite;
+}
+h2 {
+    animation: color-change 3s infinite;
+}
+h3 {
+    animation: color-change 3s infinite;
+}
+h4 {
+    animation: color-change 3s infinite;
+}
+p:hover { animation: color-change 3s infinite;
+}
+h5 {
+    animation: color-change 3s infinite;
+}
